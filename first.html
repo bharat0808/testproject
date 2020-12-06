@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<script src="firstScript.js">
+			var a="bharat";
+			//alert(a);
+			
+			
+		</script>
+		
+		
+		<p id="demo1"></p>
+		<p id="demo2"></p>
+		
+		
+	</head>
+	
+	<script>
+		
+		
+		var x,y,z;
+		x=5;y="5";
+		if(x === y)
+		{
+			document.write("They are Equals...");
+		}
+		else
+		{
+			document.write("They are not Equals...")
+		}
+		
+		/*
+		z=x+y;
+		document.write("Value of Z is "+z);
+		var name,name;
+		name="bharat";
+		name="rushi";
+		var no=0808;
+		let myname="bk";
+		document.write("<br>"+no+"<br>"+myname);*/
+		var carName="Audi"
+		document.getElementById("demo1").innerHTML = carName;
+		
+		var car={name:"Breeza", model:"500cc", color:"Red-Black"};
+		document.write("<br>Name of the car is "+car.name +" and the color combination is "+car.color);
+		
+	</script>
+	
+	<body>
+		<p id="fun"></p>
+		<p id="demo">Welcome to Pune...</p>
+		<p id="mydemo">How are you ?</p>
+		
+		<button type="button" onclick="myfunction()">Change text</button>
+		<button type="button" onclick='document.getElementById("demo").style.color="red"'>Click To change color</button>
+		<button type="button" onclick='document.getElementById("demo").style.fontSize="30px"'>Click To increase font size</button>
+		<button type="button" onclick='document.getElementById("demo").style.display="none"'>Click to hide element</button>
+		<button type="button" onclick='document.getElementById("demo").style.display="block"'>Click me</button>
+		<button type="button" onclick="document.write(8 + 8)">Add</button>
+		<button type="button" onclick="window.print()">Print</button>
+	</body>
+	<br>
+	<script>
+			document.write(5 + 6);
+	</script>
+</html>
